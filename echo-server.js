@@ -219,6 +219,6 @@ require('http').createServer(function (request, response) {
   response.writeHead(match.statusCode, match.reasonPhrase, match.headers);
   console.log(match.body);
   response.end(match.body);
-}).listen(port);
+}).listen(process.env.PORT || port);
 
 console.log('Server running at http://127.0.0.1:' + port + '/');
