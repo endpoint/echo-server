@@ -1,0 +1,18 @@
+{
+  "author": "americano-",
+  "name": "echo-server",
+  "description": "An echo server for http code",
+  "version": "0.6.1",
+  "homepage": "endpoint.github.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/endpoint/echo-server.git"
+  },
+  "main": "echo-server.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
